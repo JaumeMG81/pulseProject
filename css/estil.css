@@ -1,0 +1,16 @@
+#myScrollspy {
+	position: fixed;
+	width: 5%;
+	right: 0;
+	z-index: 10;
+}
+
+#contingut{
+	width: 90%;
+	z-index: 0;
+	margin: auto;
+}
+
+ul.navbar-nav {
+	writing-mode: vertical-lr;
+}
