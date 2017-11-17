@@ -1,3 +1,13 @@
+
+.container-fluid {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* BARRA LATERAL DE NAVEGACIÓ */
+
 #myScrollspy {
 	position: fixed;
 	width: 5%;
@@ -5,12 +15,83 @@
 	z-index: 10;
 }
 
-#contingut{
-	width: 90%;
-	z-index: 0;
-	margin: auto;
+#myScrollspy a {
+	color: white;
 }
 
 ul.navbar-nav {
 	writing-mode: vertical-lr;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* PANTALLA QUE MOSTRA L'SCROLL ACTUAL */
+
+#contingut{
+	width: 100%;
+	z-index: 0;
+	margin: auto;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* CAPÇALERA DELS SCROLLS 1,2..  - INCLOU LES IMATGES DE DIGITAL PULSE I SEIDOR, I EL VÍDEO DEL POLS */
+
+#bodyHeader .digitalPulseIMG {
+	position: absolute;
+}
+
+#bodyHeader .seidorIMG {
+	position: absolute;
+	left: 113px; /* 206px - 93px */
+	top: 52px;
+}
+
+#bodyHeader .pulseIMG {
+	position: absolute;
+	right: 50%;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* SCROLL 2 - LLETRES  P U L S E */
+
+#scroll2 {
+	height: 100vh;
+	position: relative;
+	background-color: #00153b;
+	color: white;
+}
+
+#mouseOverPulse {
+	padding-top: 25vh;
+	padding-left: 20vw;
+}
+
+#mouseOverPulse div {
+	display: inline;
+	padding-left: 30px;
+}
+
+#mouseOverPulse .lletra{
+	font-size: 10em;
+	color: rgb(5, 29, 65);
+}
+
+.textLletra {
+	position: absolute;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* SCROLL 2 - CADA UN DELS DIVS ON MOSTREM LA INFO DE LES LLETRES */
+
+#infoScroll2P, #infoScroll2U, #infoScroll2L, #infoScroll2S, #infoScroll2E {
+	
+	visibility: hidden;
+
+	position: absolute;
+
+	width: 100%;
+	height: 30vh;
+	background-color: #2f5d8f;
+	border: 2px solid #41719c;
 }

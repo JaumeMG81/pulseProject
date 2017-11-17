@@ -27,7 +27,83 @@
 		</nav>
 
 		<div id="contingut">
-			<div id="scroll1">
+			<div id="scroll0">
+        		<h1>Section 0</h1>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      		</div>
+
+      		<div id="scroll1">
         		<h1>Section 1</h1>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -82,105 +158,69 @@
         		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       		</div>
+
+            <!--                -->
+            <!-- S C R O L L  2 -->
+            <!--                -->
 
       		<div id="scroll2">
-        		<h1>Section 2</h1>
-        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		</div>
+        		
+                <?php include 'php/bodyHeader.php';?>
 
-      		<div id="scroll3">
-        		<h1>Section 3</h1>
-        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <!-- LLETRES -->
+
+                <div id="mouseOverPulse">
+                    
+                    <div>
+                        <span class="lletra" id="lletraP">P</span>
+                        <span class="textLletra" id="textLletraP"></span>
+                    </div>
+                    
+                    <div>
+                        <span class="lletra" id="lletraU">U</span>
+                        <span class="textLletra" id="textLletraU"></span>
+                    </div>
+                    
+                    <div>
+                        <span class="lletra"  id="lletraL">L</span>
+                        <span class="textLletra" id="textLletraL"></span>
+                    </div>
+
+                    <div>
+                        <span class="lletra"  id="lletraS">S</span>
+                        <span class="textLletra" id="textLletraS"></span>
+                    </div>
+
+                    <div>
+                        <span class="lletra"  id="lletraE">E</span>
+                        <span class="textLletra" id="textLletraE"></span>
+                    </div>
+                </div>
+
+                <!-- INFORMACIÓ DE CADA UNA DE LES LLETRES -->
+                <!-- NOMÉS UN DE VISIBLE A L'HORA -->
+
+                <div id="infoScroll2P">
+                    P
+                </div>
+
+                <div id="infoScroll2U">
+                    U
+                </div>
+
+                <div id="infoScroll2L">
+                    L
+                </div>
+
+                <div id="infoScroll2S">
+                    S
+                </div>
+
+                <div id="infoScroll2E">
+                    E
+                </div>
       		</div>
 
       		<div id="scroll4">
@@ -437,5 +477,8 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/funcions.js"></script>
+
 </body>
 </html>
