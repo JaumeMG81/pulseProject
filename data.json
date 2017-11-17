@@ -1,0 +1,114 @@
+{
+  "apartados":[
+    {
+      "nombre": "INICIO",
+      "contenido": "Acelera tu pulso digital"
+    },
+    {
+      "nombre": "Digital pulse",
+      "titulo": "Acelera tu pulso digital",
+      "contenido": "Impusla la transformación digital de tu negocio con Digital Pulse"
+    },
+    {
+      "nombre": "Pulse",
+      "secciones": [
+        {
+          "titulo":"plan",
+          "subtituloPrimario": "Diseña tu estrategia digital",
+          "subtituloSecundario":"Diseña tu estrategia y tu plan de transformación digital",
+          "detalle":[
+            {
+              "titulo": "check",
+              "contenido": "diagnostica la madurez digital de tu organizacion"
+            },
+            {
+              "titulo": "map",
+              "contenido": "traza la estrategia, define las iniciativas y calendarízalas"
+            }
+          ]
+        },
+        {
+          "titulo": "unfold",
+          "subtituloPrimario":"Despliega la tranformación",
+          "subtituloSecundario":"Despliega la transformación digital",
+          "detalle":[
+            {
+              "titulo":"office",
+              "contenido":"Impulsa la transformación con la creación de una oficina in company"
+            },
+            {
+              "titulo":"wins",
+              "contenido":"Ejecuta acciones de alto impacto a corto plazo"
+            }
+          ]
+        },
+        {
+          "titulo":"learn",
+          "subtituloPrimario":"Desarrolla tus competencias y conocimientos",
+          "subtituloSecundario":"Capacita digitalmente tu organización",
+          "detalle":[
+            {
+              "titulo":"coaching",
+              "contenido":"Acompaña a la organización en la formación y desarrollo de sus capacidades digitales"
+            },
+            {
+              "titulo":"seminars",
+              "contenido":"Aprende con seminarios y workshops in company y en business schools(Esade)"
+            }
+          ]
+        },
+        {
+          "titulo":"share",
+          "subtituloPrimario":"Comparte tus conocimientos y experiencias",
+          "detalle":[
+            {
+              "titulo":"hub",
+              "contenido":"accede a los mejores contenidos digitales filtrados y clasificados"
+            },
+            {
+              "titulo":"network",
+              "contenido":"interactúa y participa en las actividades del Club Ditgital de Esade"
+            }
+          ]
+        },
+        {
+          "titulo":"experience",
+          "subtituloPrimario":"Experimenta lo que la transformación digital puede aportar a tu empresa",
+          "subtituloSecundario":"Vive la digitalización",
+          "detalle":[
+            {
+              "titulo":"dive",
+              "contenido":"vive la innovación digital con experiencias reales"
+            },
+            {
+              "titulo":"ventures",
+              "contenido":"conecta con start-ups para potenciar tu innovación"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre":"Toma tu pulso digital",
+      "titulo":"¿Quieres tomar tu pulso digital?",
+      "contenido":"Contesta un breve cuestionario y te mostraremos el nivel de madurez digital de tu compañia."
+    },
+    {
+      "nombre":"Modalidades",
+      "titulo":"Conviértete en el líder de la transformación digital de tu organización",
+      "contenido":[
+        {
+          "texto":"Implica a tu organización y conciencia a la Dirección sobre la importancia de la transformación digital"
+        },
+        {
+          "texto":"Forma a tu equipo en competencias y conocimientos digitales"
+        },
+        {
+          "texto":"Comparte conocimiento con otras organizaciones e interactúa con ellas"
+        }
+      ],
+      "contenidoSecundario":"Te ayudamos a liderar la transformación digital en todos los ámbitos que necesites.",
+      "boton":"¡Tenemos un plan para ti!"
+    }
+  ]
+}
