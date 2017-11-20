@@ -3,6 +3,11 @@
 	margin: 0;
 	border: 0;
 	padding: 0;
+
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -55,36 +60,39 @@ ul.navbar-nav {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* SCROLL 2 - LLETRES  P U L S E */
 
-#scroll2 {
+#seccio_digital_pulse {
 	height: 100vh;
 	position: relative;
 	background-color: #00153b;
 	color: white;
 }
 
-#mouseOverPulse {
+#lletresPulse {
 	padding-top: 25vh;
 	padding-left: 20vw;
 }
 
-#mouseOverPulse div {
+#lletresPulse div {
 	display: inline;
 	padding-left: 30px;
+	position: relative;
 }
 
-#mouseOverPulse .lletra{
+#lletresPulse .lletra{
 	font-size: 10em;
 	color: rgb(5, 29, 65);
 }
 
-.textLletra {
+#lletresPulse .textLletra {
 	position: absolute;
+	right:13px;
+	bottom: 50px;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* SCROLL 2 - CADA UN DELS DIVS ON MOSTREM LA INFO DE LES LLETRES */
 
-#infoScroll2P, #infoScroll2U, #infoScroll2L, #infoScroll2S, #infoScroll2E {
+#stripe_lletra_P, #infoScroll2U, #infoScroll2L, #infoScroll2S, #infoScroll2E {
 	
 	visibility: hidden;
 
@@ -94,4 +102,46 @@ ul.navbar-nav {
 	height: 30vh;
 	background-color: #2f5d8f;
 	border: 2px solid #41719c;
+}
+
+.stripe_titol1 {
+	width: 70%;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
+.stripe_titol2 {
+	width: 70%;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+.stripe_continguts {
+	padding-top: 2em;
+	width: 50%;
+	margin: auto;
+}
+
+.stripe_contingut1 {
+	width: 25%;
+	float: left;
+	display: inline;
+	margin-right: 75px;
+}
+
+.stripe_contingut2 {
+	width: 25%;
+	display: inline;
+}
+
+.stripe_text1 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#stripe_lletra_P img {
+	padding-left: 10px;
 }

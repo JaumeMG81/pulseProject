@@ -165,46 +165,98 @@
             <!-- S C R O L L  2 -->
             <!--                -->
 
-      		<div id="scroll2">
+      		<div id="seccio_digital_pulse">
         		
                 <?php include 'php/bodyHeader.php';?>
 
                 <!-- LLETRES -->
 
-                <div id="mouseOverPulse">
+                <div id="lletresPulse">
                     
+                    <!-- LLETRA P -->
                     <div>
                         <span class="lletra" id="lletraP">P</span>
                         <span class="textLletra" id="textLletraP"></span>
                     </div>
                     
+                    <!-- LLETRA U -->
                     <div>
                         <span class="lletra" id="lletraU">U</span>
                         <span class="textLletra" id="textLletraU"></span>
                     </div>
                     
+                    <!-- LLETRA L -->
                     <div>
                         <span class="lletra"  id="lletraL">L</span>
                         <span class="textLletra" id="textLletraL"></span>
                     </div>
 
+                    <!-- LLETRA S -->
                     <div>
                         <span class="lletra"  id="lletraS">S</span>
                         <span class="textLletra" id="textLletraS"></span>
                     </div>
 
+                    <!-- LLETRA E -->
                     <div>
                         <span class="lletra"  id="lletraE">E</span>
                         <span class="textLletra" id="textLletraE"></span>
                     </div>
                 </div>
 
+
                 <!-- INFORMACIÓ DE CADA UNA DE LES LLETRES -->
                 <!-- NOMÉS UN DE VISIBLE A L'HORA -->
 
-                <div id="infoScroll2P">
-                    P
+                <!-- LLETRA P -->
+                <div id="stripe_lletra_P">
+                    
+                    <p class="stripe_titol1">Plan</p>
+                    <p class="stripe_titol2">diseña tu estrategia y tu plan de transformación digital</p>
+                    
+                    <div class="stripe_continguts">
+                        
+                        <div class="stripe_contingut1">
+                            <span class="stripe_text1">check</span>
+                            <img src="media/check.png">
+                            <br>
+                            <span class="stripe_text2">diagnostica la madurez digital de tu organización </span>
+                            
+                        </div>
+
+                        <div class="stripe_contingut2">
+                            <span class="stripe_text1">map</span>
+                            <img src="media/map.png">
+                            <br>
+                            <span class="stripe_text2">traza la estrategia, define las iniciativas y calendarízalas</span>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- LLETRA U -->
+                <!--<div id="stripe_lletra_P">
+                    
+                    <p class="stripe_titol1">Plan</p>
+                    <p class="stripe_titol2">diseña tu estrategia y tu plan de transformación digital</p>
+                    
+                    <div class="stripe_continguts">
+                        
+                        <div class="stripe_contingut1">
+                            <span class="stripe_text1">check</span>
+                            <img src="media/check.png">
+                            <br>
+                            <span class="stripe_text2">diagnostica la madurez digital de tu organización </span>
+                            
+                        </div>
+
+                        <div class="stripe_contingut2">
+                            <span class="stripe_text1">map</span>
+                            <img src="media/map.png">
+                            <br>
+                            <span class="stripe_text2">traza la estrategia, define las iniciativas y calendarízalas</span>
+                        </div>
+                    </div>
+                </div>-->
 
                 <div id="infoScroll2U">
                     U

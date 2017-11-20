@@ -7,11 +7,11 @@ document.getElementById("lletraP").addEventListener("click", function() {
     document.getElementById("infoScroll2S").style.visibility = "hidden";
     document.getElementById("infoScroll2E").style.visibility = "hidden";
 
-    document.getElementById("infoScroll2P").style.visibility = "visible";
+    document.getElementById("stripe_lletra_P").style.visibility = "visible";
 });
 
 document.getElementById("lletraU").addEventListener("click", function() {
-	document.getElementById("infoScroll2P").style.visibility = "hidden";
+	document.getElementById("stripe_lletra_P").style.visibility = "hidden";
     document.getElementById("infoScroll2L").style.visibility = "hidden";
     document.getElementById("infoScroll2S").style.visibility = "hidden";
     document.getElementById("infoScroll2E").style.visibility = "hidden";
@@ -20,7 +20,7 @@ document.getElementById("lletraU").addEventListener("click", function() {
 });
 
 document.getElementById("lletraL").addEventListener("click", function() {
-	document.getElementById("infoScroll2P").style.visibility = "hidden";
+	document.getElementById("stripe_lletra_P").style.visibility = "hidden";
     document.getElementById("infoScroll2U").style.visibility = "hidden";
     document.getElementById("infoScroll2S").style.visibility = "hidden";
     document.getElementById("infoScroll2E").style.visibility = "hidden";
@@ -29,7 +29,7 @@ document.getElementById("lletraL").addEventListener("click", function() {
 });
 
 document.getElementById("lletraS").addEventListener("click", function() {
-	document.getElementById("infoScroll2P").style.visibility = "hidden";
+	document.getElementById("stripe_lletra_P").style.visibility = "hidden";
     document.getElementById("infoScroll2U").style.visibility = "hidden";
     document.getElementById("infoScroll2L").style.visibility = "hidden";
     document.getElementById("infoScroll2E").style.visibility = "hidden";
@@ -38,7 +38,7 @@ document.getElementById("lletraS").addEventListener("click", function() {
 });
 
 document.getElementById("lletraE").addEventListener("click", function() {
-	document.getElementById("infoScroll2P").style.visibility = "hidden";
+	document.getElementById("stripe_lletra_P").style.visibility = "hidden";
     document.getElementById("infoScroll2U").style.visibility = "hidden";
     document.getElementById("infoScroll2L").style.visibility = "hidden";
     document.getElementById("infoScroll2S").style.visibility = "hidden";
@@ -88,7 +88,7 @@ document.getElementById("lletraE").addEventListener("mouseenter", function() {
 
 
 function mostrarTextLletraP() {
-	return "hola que tal";
+	return "PLAN Diseña tu estrategia digital";
 }
 
 
