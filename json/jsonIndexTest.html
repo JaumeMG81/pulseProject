@@ -2,11 +2,83 @@
 <html>
 <head>
 	<title>TestJson</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
-
+	<div id="location">
+    <tr>
+        <h3>Nombre</h3>
+         <h4>Contenido</h4>
+    </tr>
+	</div>
 </body>
-<script type="text/javascript">
-	
+<script>
+	var json = 'data.json';
+	$(document).ready(function(){
+
+    jQuery.support.cors = true;
+
+    $.ajax(
+    {
+        type: "GET",
+        url: json,
+        data: "{}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        cache: false,
+        success: function (data) {
+            
+        var trHTML = '';
+                
+        /*$.each(data.apartados, function (i, item) {
+            
+            trHTML += '<div><h5>' + data.apartados[i].nombre + '</h5><p>' + data.apartados[i].contenido + '</p></div>';
+        });*/
+        trHTML += '<div><h5>' + data.apartados[0].nombre + '</h5><p>' + data.apartados[0].contenido + '</p></div>'+
+        '<div><h5>' + data.apartados[1].nombre + '</h5><h4>' + data.apartados[1].titulo + '</h4><p>' + data.apartados[1].contenido + '</p></div>' +
+        '<div><h5>' + data.apartados[2].nombre + '</h5><table border = 1><tr><td>' + data.apartados[2].secciones[0].titulo + '</td>'+
+        '<td>' + data.apartados[2].secciones[0].subtituloPrimario + '</td>'+
+        '<td>' + data.apartados[2].secciones[0].subtituloSecundario + '</td>'+
+        '<td><table border = 1><tr><td>' + data.apartados[2].secciones[0].detalle[0].titulo + '</td><td>' + data.apartados[2].secciones[0].detalle[0].contenido + '</td></tr>' +
+        '<tr><td>'+ data.apartados[2].secciones[0].detalle[1].titulo + '</td><td>' + data.apartados[2].secciones[0].detalle[1].contenido + '</td></tr></table></tr>'+
+        '<tr><td>' + data.apartados[2].secciones[1].titulo + '</td>'+
+        '<td>' + data.apartados[2].secciones[1].subtituloPrimario + '</td>'+
+        '<td>' + data.apartados[2].secciones[1].subtituloSecundario + '</td>'+
+        '<td><table border = 1><tr><td>' + data.apartados[2].secciones[1].detalle[0].titulo + '</td><td>' + data.apartados[2].secciones[1].detalle[0].contenido + '</td></tr>' +
+        '<tr><td>'+ data.apartados[2].secciones[1].detalle[1].titulo + '</td><td>' + data.apartados[2].secciones[1].detalle[1].contenido + '</td></tr></table></tr>' +
+        '<tr><td>' + data.apartados[2].secciones[2].titulo + '</td>'+
+        '<td>' + data.apartados[2].secciones[2].subtituloPrimario + '</td>'+
+        '<td>' + data.apartados[2].secciones[2].subtituloSecundario + '</td>'+
+        '<td><table border = 1><tr><td>' + data.apartados[2].secciones[2].detalle[0].titulo + '</td><td>' + data.apartados[2].secciones[2].detalle[0].contenido + '</td></tr>' +
+        '<tr><td>'+ data.apartados[2].secciones[2].detalle[1].titulo + '</td><td>' + data.apartados[2].secciones[2].detalle[1].contenido + '</td></tr></table></tr>' +
+        '<tr><td>' + data.apartados[2].secciones[3].titulo + '</td>'+
+        '<td>' + data.apartados[2].secciones[3].subtituloPrimario + '</td>'+
+        '<td>' + data.apartados[2].secciones[3].subtituloSecundario + '</td>'+
+        '<td><table border = 1><tr><td>' + data.apartados[2].secciones[3].detalle[0].titulo + '</td><td>' + data.apartados[2].secciones[3].detalle[0].contenido + '</td></tr>' +
+        '<tr><td>'+ data.apartados[2].secciones[3].detalle[1].titulo + '</td><td>' + data.apartados[2].secciones[3].detalle[1].contenido + '</td></tr></table></tr>' +
+        '<tr><td>' + data.apartados[2].secciones[4].titulo + '</td>'+
+        '<td>' + data.apartados[2].secciones[4].subtituloPrimario + '</td>'+
+        '<td>' + data.apartados[2].secciones[4].subtituloSecundario + '</td>'+
+        '<td><table border = 1><tr><td>' + data.apartados[2].secciones[4].detalle[0].titulo + '</td><td>' + data.apartados[2].secciones[4].detalle[0].contenido + '</td></tr>' +
+        '<tr><td>'+ data.apartados[2].secciones[4].detalle[1].titulo + '</td><td>' + data.apartados[2].secciones[4].detalle[1].contenido + '</td></tr></table></tr></table></div>'+
+        '<div><h5>' + data.apartados[3].nombre + '</h5><h4>' + data.apartados[3].titulo + '</h4><p>' + data.apartados[3].contenido + '</p></div>'+
+        '<div><h5>' + data.apartados[4].nombre + '</h5><h4>' + data.apartados[4].titulo + '</h4>'+
+        '<table border = 1><tr><td>' + data.apartados[4].contenido[0].texto + '</td>'+
+        '<td>' + data.apartados[4].contenido[1].texto + '</td>'+
+        '<td>' + data.apartados[4].contenido[2].texto + '</td></tr>'+
+        '<tr><td colspan=3>' + data.apartados[4].contenidoSecundario + '</td></tr></table>'+
+        '<button>' + data.apartados[4].boton + '</button></div>'; 
+
+        
+        $('#location').append(trHTML);
+        
+        },
+        
+        error: function (msg) {
+            
+            alert(msg.responseText);
+        }
+    });
+})
 </script>
 </html>
