@@ -92,7 +92,7 @@ ul.navbar-nav {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* SCROLL 2 - CADA UN DELS DIVS ON MOSTREM LA INFO DE LES LLETRES */
 
-#stripe_lletra_P, #infoScroll2U, #infoScroll2L, #infoScroll2S, #infoScroll2E {
+#stripe_lletra_P, #stripe_lletra_U, #stripe_lletra_L, #stripe_lletra_S, #stripe_lletra_E {
 	
 	visibility: hidden;
 
@@ -142,6 +142,6 @@ ul.navbar-nav {
 	font-weight: bold;
 }
 
-#stripe_lletra_P img {
+#stripe_lletra_P img, #stripe_lletra_U img, #stripe_lletra_L img, #stripe_lletra_S img, #stripe_lletra_E img{
 	padding-left: 10px;
 }
