@@ -22,8 +22,13 @@
 
 #myScrollspy a {
 	color: white;
+	text-decoration: overline;
+	font-weight: bold;
 }
+/*
+#myScrollspy a:hover{
 
+}*/
 ul.navbar-nav {	
 	writing-mode: vertical-lr;
 }

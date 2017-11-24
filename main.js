@@ -24,7 +24,7 @@ $(function(){
                 else if (scrollval >= 250) {
                     $("#scroll6").hide();
                 }
-            })*/
+            })*//*
           $(document).scroll(function() {
           var y = $(this).scrollTop();
             if (y > 100) {
@@ -33,7 +33,7 @@ $(function(){
                 $('#scroll4').fadeOut();
                 $('#scroll2').fadeIn();
             }
-          });
+          });*/
 })
 
 })
