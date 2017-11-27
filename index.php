@@ -6,7 +6,12 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+
     <link rel="stylesheet" type="text/css" href="css/estil.css">
+
+    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/projectes/pulseProject/parallax.js-1.5.0/parallax.js"></script>
 
@@ -64,7 +69,7 @@
 
 
 			<div id="scroll0" class="parallax-window"> <!--data-parallax="scroll" data-image-src="images/image.jpg"-->
-        		<h1>Section 0</h1>
+        		<h1>Inicio</h1>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -142,7 +147,7 @@
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/thread.gif"></div>
 
       		<div id="scroll1">
-        		<h1>Section 1</h1>
+        		<h1>Digital pulse</h1>
 
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -317,8 +322,8 @@
 
             <div class="parallax-window" data-parallax="scroll" data-image-src="images/thread.gif"></div>
 
-      		<div id="scroll4" style="display: none;">
-        		<h1>Section 4</h1>
+      		<div id="scroll4">
+        		<h1>Toma tu pulso digital</h1>
         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -378,7 +383,7 @@
 
 
       		<div id="scroll5">    
-        		<h1>Section 5</h1>
+        		<h1>Comentarios</h1>
         		
                 <form>
                   <div class="form-group">
@@ -406,7 +411,7 @@
       		<div id="scroll6" > 
 
  
-            <h1>Section 6</h1>  
+            <h1>Información y contacto</h1>  
                         		<!--Footer-->
                  <div>
                     <img src="images/logo.png" class="img-responsive center-block" alt="">
@@ -491,7 +496,6 @@
                 </div>
                 </section>
                 </footer>
-      
       		</div>
         </div>
     </div>
