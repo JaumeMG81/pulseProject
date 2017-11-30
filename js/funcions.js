@@ -134,6 +134,10 @@ $(document).ready(function(){
         var str = JSON.stringify(data);
         json = JSON.parse(str);
 
+        document.getElementById("seccio_portada_text").innerHTML = json.apartados[0].contenido;
+      
+        document.getElementById("seccio_digital_pulse_txt_2").innerHTML = json.apartados[1].contenido;
+
         document.getElementById("stripe_titol1_lletra_P").innerHTML = json.apartados[2].secciones[0].titulo;
         document.getElementById("stripe_titol2_lletra_P").innerHTML = json.apartados[2].secciones[0].subtituloSecundario;
         document.getElementById("stripe_contingut1_text1_lletra_P").innerHTML = json.apartados[2].secciones[0].detalle[0].titulo;
@@ -172,6 +176,97 @@ $(document).ready(function(){
         /* falta la resta .. */
 
     })
+});
 
-    
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* E V E N T   L I S T E N E R S */
+
+var scroll_portada = document.getElementById('seccio_portada');
+var scroll_dp = document.getElementById('seccio_digital_pulse');
+var scroll_pulse = document.getElementById('seccio_pulse');
+var scroll3 = document.getElementById('scroll3');
+var scroll4 = document.getElementById('scroll4');
+var scroll5 = document.getElementById('scroll5');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* E V E N T   L I S T E N E R S   X   F E R   S C R O L L */
+
+
+scroll_portada.addEventListener('wheel', function(e) {
+  if (e.deltaY > 0) {
+    scroll_dp.scrollIntoView();
+  }
+});
+
+
+scroll_dp.addEventListener('wheel', function(e) {
+  if (e.deltaY < 0) {
+    scroll_portada.scrollIntoView();
+  }
+  if (e.deltaY > 0) {
+    scroll_pulse.scrollIntoView();
+  }
+});
+
+scroll_pulse.addEventListener('wheel', function(e) {
+  if (e.deltaY < 0) {
+    scroll_dp.scrollIntoView();
+  }
+  if (e.deltaY > 0) {
+    scroll3.scrollIntoView();
+  }
+});
+
+
+scroll3.addEventListener('wheel', function(e) {
+  if (e.deltaY < 0) {
+    scroll_pulse.scrollIntoView();
+  }
+  if (e.deltaY > 0) {
+    scroll4.scrollIntoView();
+  }
+});
+
+scroll4.addEventListener('wheel', function(e) {
+  if (e.deltaY < 100) {
+    scroll3.scrollIntoView();
+  }
+  if (e.deltaY > 0) {
+    scroll5.scrollIntoView();
+  }
+});
+
+scroll5.addEventListener('wheel', function(e) {
+  if (e.deltaY < 0) {
+    scroll4.scrollIntoView();
+  }
+});
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* E V E N T   L I S T E N E R S   X RESALTAR UN TXT DEL MENÚ SEGONS LA SECCIÓ ACTUAL */
+
+scroll_portada.addEventListener('mouseover', function(){
+    document.getElementById("navbarLi1").classList.add("hoverClass");
+});
+
+scroll_portada.addEventListener('mouseleave', function(){
+    document.getElementById("navbarLi1").classList.remove("hoverClass");
+});
+
+scroll_dp.addEventListener('mouseover', function(){
+    document.getElementById("navbarLi2").classList.add("hoverClass");
+});
+
+scroll_dp.addEventListener('mouseleave', function(){
+    document.getElementById("navbarLi2").classList.remove("hoverClass");
+});
+
+scroll_pulse.addEventListener('mouseover', function(){
+    document.getElementById("navbarLi3").classList.add("hoverClass");
+});
+
+scroll_pulse.addEventListener('mouseleave', function(){
+    document.getElementById("navbarLi3").classList.remove("hoverClass");
 });
